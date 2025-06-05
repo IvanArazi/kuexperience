@@ -1,0 +1,359 @@
+.capa-org {
+    opacity: 0.6;
+}
+
+.pasos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    gap: 4em;
+    background-color: #F7F7F7;
+}
+
+.pasos h2 {
+    font-size: 1.5em;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.pasos-container {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 12em;
+}
+
+.pasos-text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: .4em;
+    width: 40%;
+}
+
+.pasos-container video {
+    max-width: 100%;
+    width: 20em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pasos-title {
+    font-size: 18px;
+    color: #627DFF;
+    font-weight: 700;
+}
+
+.pasos-description {
+    font-size: 15px;
+    color: #666666;
+    font-weight: 600;
+}
+
+.pasos-description2 {
+    font-weight: 800;
+}
+
+.pasos-text a {
+    margin-top: 3em;
+    padding: 0.7em 2em;
+    background-color: #627DFF;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    font-weight: 300;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.pasos-text a:hover {
+    background-color: #1a1a1a;
+    transition: .3s;
+}
+
+.viaje-especial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #001236;
+}
+
+.viaje-especial h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    width: 90%;
+}
+
+.img-especial {
+    position: relative;
+}
+
+.container-especial {
+    padding-top: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 1em;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.imagen-section-especial {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    filter: blur(3px);
+}
+
+.capa-especial {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1c1c1d;
+    opacity: 0.5;
+    /*mix-blend-mode: overlay;*/
+}
+
+.container-especial {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding-top: 7em;
+    padding-bottom: 7em;
+}
+
+.container-especial-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    width: 100%;
+}
+
+.container-especial-items div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+    padding: 1em;
+    background-color: #000000ae;
+    border-radius: 20px;
+    width: 23em;
+    height: 18em;
+}
+
+.container-especial div img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.especial-title {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.especial-description {
+    color: #c8c8c8;
+    font-size: 14px;
+    margin: 0;
+    width: 97%;
+}
+
+.experiencia-unica {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    background-color: #F7F7F7;
+    gap: 4em;
+}
+
+.experiencia-unica h2 {
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    width: 95%;
+}
+
+.slider-marquee {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.slider-marquee img {
+    width: 20em;
+    height: 15em;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.aeropuerto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    background-color: #ffffff;
+    gap: 8em;
+}
+
+.aeropuerto-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8em;
+}
+
+.aeropuerto-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ademas {
+    font-size: 30px;
+    font-weight: 800;
+    color: #879CFF;
+    width: 90%;
+    text-align: center;
+}
+
+.te_esperamos {
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+}
+
+.emoji {
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.aeropuerto img {
+    width: 20em;
+    height: 15em;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.aeropuerto a {
+    padding: 0.7em 2em;
+    background-color: #627DFF;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    font-weight: 300;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.aeropuerto a:hover {
+    background-color: #1a1a1a;
+    transition: .3s;
+}
+
+@media screen and (max-width:1150px) {
+    .container-especial-items {
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+    }
+
+    .container-especial-items div {
+        width: 90%;
+        height: auto;
+        padding: 2em;
+    }
+}
+
+@media screen and (max-width:920px) {
+    .pasos h2 {
+        font-size: 1.2em;
+        width: 95%;
+    }
+
+    .pasos-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 4em;
+    }
+
+    .pasos-text {
+        width: 90%;
+        align-items: center;
+        text-align: center;
+        gap: 2em;
+    }
+
+    .aeropuerto {
+        gap: 3em;
+    }
+
+    .aeropuerto-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+    }
+
+    .aeropuerto img {
+        width: 90%;
+        height: auto;
+    }
+
+    .aeropuerto a {
+        width: 90%;
+        text-align: center;
+    }
+
+    .te_esperamos {
+        width: 90%;
+    }
+
+    .imagen-section-especial {
+        filter: blur(5px);
+    }
+}
+
+@media screen and (max-width:430px) {
+    .viaje-especial h2 {
+        font-size: 1em;
+    }
+
+    .container-especial-items div {
+        width: 96%;
+        padding: 1.5em;
+    }
+}

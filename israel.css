@@ -1,0 +1,627 @@
+.video-section-israel {
+    min-height: 100vh;
+    position: relative;
+}
+
+.presentacion-israel {
+    padding-top: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 1em;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.video-israel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+.capa-israel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1c1c1d;
+    opacity: 0.5;
+    /*mix-blend-mode: overlay;*/
+}
+
+.israel-title {
+    font-size: 64px;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.israel-description {
+    font-size: 22px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.timeisrael-description {
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 0;
+    width: 60%;
+}
+
+.presentacion-israel a {
+    padding: 15px 30px;
+    border-radius: 19px;
+    background-color: #445FE0;
+    color: white;
+    font-weight: 200;
+    text-decoration: none;
+    font-size: 13px;
+    box-shadow: 0px 8px 12px 6px rgba(0,0,0,0.1);
+    margin-top: 1em;
+}
+
+.presentacion-israel a:hover {
+    background-color: #0e0e0e;
+    transition: 0.3s;
+}
+
+.israel-content {
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7em;
+    padding-bottom: 7em;
+}
+
+.israel-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    padding: 3em 5em;
+}
+
+.israel-icons div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    text-align: center;
+    width: 18em;
+}
+
+.israel-icons div img {
+    width: 40px;
+}
+
+.israel-icon-description {
+    font-size: 15px;
+    margin-bottom: 0;
+    color: #484848;
+    font-weight: 400;
+}
+
+.israel-icon-title {
+    color: #1c1c1d;
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.experiencia-section {
+    background-color: #fff;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+}
+
+.experiencia-section h2 {
+    font-size: 37px;
+    font-weight: 800;
+    color: #445FE0;
+    margin-bottom: 0;
+}
+
+.experiencia-description {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    width: 95%;
+}
+
+.experiencia-description strong {
+    font-weight: 600;
+}
+
+/* Experiencia imágenes con capa oscura y texto centrado */
+.experiencia-images {
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    width: 90%;
+}
+
+.experiencia-img-item {
+    position: relative;
+    width: 15em;
+    height: 15em;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jerusalem:hover .jerusalem-capa {
+    background-image: url(img/jerusalem2.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .5s;
+}
+
+.tel-aviv:hover .tel-aviv-capa {
+    background-image: url(img/tel-aviv2.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .5s;
+}
+
+.altos-del-golan:hover .altos-del-golan-capa {
+    background-image: url(img/altos-del-golan2.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .5s;
+}
+
+.mar-muerto:hover .mar-muerto-capa {
+    background-image: url(img/mar-muerto2.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .5s;
+}
+
+.rosh-hanikra:hover .rosh-hanikra-capa {
+    background-image: url(img/rosh-hanikra2.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .5s;
+}
+
+.cesarea:hover .cesarea-capa {
+    background-image: url(img/cesarea2.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .5s;
+}
+
+.buenos-aires:hover .buenos-aires-capa {
+    background-image: url(img/buenos-aires2.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .5s;
+}
+
+.cataratas:hover .cataratas-capa {
+    background-image: url(img/cataratas2.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .5s;
+}
+
+.calafate:hover .calafate-capa {
+    background-image: url(img/calafate2.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .5s;
+}
+
+.mendoza:hover .mendoza-capa {
+    background-image: url(img/mendoza2.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .5s;
+}
+
+.bariloche:hover .bariloche-capa {
+    background-image: url(img/bariloche2.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .5s;
+}
+
+.cordoba:hover .cordoba-capa {
+    background-image: url(img/cordoba2.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .5s;
+}
+
+.experiencia-img-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.experiencia-img-capa {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.49);
+    z-index: 1;
+}
+
+.experiencia-img-item p {
+    position: absolute;
+    z-index: 2;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.diferente-section {
+    background-color: #F7F7F7;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+}
+
+.diferente-section h2 {
+    font-size: 35px;
+    font-weight: 800;
+    color: #445FE0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.diferente-section p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    width: 70%;
+    margin-bottom: 0;
+}
+
+.diferente-section p strong {
+    font-weight: 600;
+}
+
+.viaje-unico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    background-image: url(img/Jerusalen-fondo.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.viaje-unico h2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.viaje-unico p {
+    font-size: 18px;
+    font-weight: 200;
+    color: #fff;
+    text-align: center;
+    width: 70%;
+    margin-bottom: 0;
+}
+
+.viaje-unico p strong {
+    font-weight: 600;
+}
+
+.viaje-unico a {
+    padding: 15px 30px;
+    border-radius: 19px;
+    background-color: #445FE0;
+    color: white;
+    font-weight: 200;
+    text-decoration: none;
+    font-size: 13px;
+    box-shadow: 0px 8px 12px 6px rgba(0,0,0,0.1);
+}
+
+.viaje-unico a:hover {
+    background-color: #0e0e0e;
+    transition: 0.3s;
+}
+
+.preguntas-frecuentes {
+    padding-top: 7em;
+    padding-bottom: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.preguntas-frecuentes h2 {
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 0;
+    text-align: center;
+    width: 90%;
+}
+
+.preguntas-frecuentes p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 0;
+    width: 90%;
+}
+
+.item-preguntas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 7em;
+}
+
+.faq-list {
+    max-width: 800px;
+    margin: 2em auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 90%;
+}
+
+.faq-item {
+    border-radius: 12px;
+    overflow: hidden;
+    background: #f5f7ff;
+    box-shadow: 0 2px 8px rgba(34,42,58,0.07);
+}
+
+.faq-question {
+    width: 100%;
+    text-align: left;
+    background: #e4e9ff;
+    color: #0e0e0e;
+    border: none;
+    outline: none;
+    font-size: 1.1em;
+    font-weight: 400;
+    padding: 1em 1.5em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.faq-question:hover,
+.faq-item.open .faq-question {
+    background: #8498ff;
+    color: #fff;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    background: #fff;
+    color: #222a3a;
+    transition: max-height 0.4s cubic-bezier(.77,0,.18,1), padding 0.3s;
+    padding: 0 1.5em;
+}
+
+.faq-item.open .faq-answer {
+    max-height: 300px;
+    padding: 1em 1.5em;
+}
+
+.escribinos-button {
+    padding: 15px 30px;
+    border-radius: 19px;
+    background-color: #0a0a0a;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 13px;
+    box-shadow: 0px 8px 12px 6px rgba(0,0,0,0.1);
+}
+
+.escribinos-button:hover {
+    background-color: #445FE0;
+    transition: 0.3s;
+}
+
+@media screen and (max-width:900px) {
+    .israel-title {
+        font-size: 48px;
+    }
+
+    .timeisrael-description {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .israel-description {
+        font-size: 18px;
+    }
+
+    .presentacion-israel a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .israel-content {
+        gap: 5em;
+    }
+
+    .israel-icons {
+        gap: 5em;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:790px) {
+    .experiencia-section h2 {
+        font-size: 30px;
+    }
+
+    .experiencia-description {
+        font-size: 16px;
+    }
+
+    .experiencia-images {
+        flex-direction: column;
+    }
+
+    .experiencia-img-item {
+        width: 100%;
+        height: 20em;
+    }
+
+    .viaje-unico {
+        gap: 2em;
+    }
+
+    .viaje-unico h2 {
+        font-size: 28px;
+        width: 90%;
+        text-align: center;
+    }
+
+    .viaje-unico p {
+        font-size: 15px;
+        width: 90%;
+    }
+
+    .viaje-unico a {
+        width: 90%;
+        text-align: center;
+    }
+
+    .item-preguntas {
+        flex-direction: column;
+    }
+
+    .faq-list {
+        margin: 1em auto;
+    }
+
+    .escribinos-button {
+        width: 90%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:531px) {
+    .presentacion-israel {
+        padding-top: 15em;
+    }
+
+    .israel-title {
+        font-size: 35px;
+    }
+
+    .timeisrael-description {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .israel-description {
+        font-size: 14px;
+    }
+
+    .experiencia-section h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .experiencia-description {
+        font-size: 14px;
+    }
+
+    .experiencia-img-item {
+        height: 15em;
+    }
+
+    .diferente-section h2 {
+        font-size: 22px;
+        width: 90%;
+    }
+
+    .diferente-section p {
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .viaje-unico h2 {
+        font-size: 22px;
+    }
+
+    .viaje-unico p {
+        font-size: 14px;
+    }
+
+    .preguntas-frecuentes h2 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .israel-title {
+        font-size: 28px;
+    }
+
+    .timeisrael-description {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .israel-description {
+        font-size: 12px;
+    }
+}
