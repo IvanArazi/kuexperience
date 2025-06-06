@@ -678,6 +678,12 @@ footer {
     font-weight: 100;
 }
 
+.footer-secciones a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
 @media screen and (max-width:1286px) {
     .section2-icons {
         gap: 4em;
