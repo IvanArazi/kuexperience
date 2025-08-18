@@ -104,7 +104,7 @@ selectPaises.innerHTML = `<option value="" disabled selected>Nacionalidad</optio
 document.getElementById("contact-form").addEventListener("submit", function(event) {
   event.preventDefault();
 
-  emailjs.sendForm('default_service', 'template_aghokjh', this)
+  emailjs.sendForm('default_service', 'template_g138ius', this)
     .then(() => {
       alert("Mensaje enviado correctamente ✅");
       this.reset();
